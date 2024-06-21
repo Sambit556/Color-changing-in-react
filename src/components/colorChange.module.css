@@ -1,0 +1,30 @@
+section{
+     height: 95vh;
+     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.div{
+     height: 80px;
+     width: 90%;
+     background-color: black;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+}
+.div button{
+     height: 30px;
+     width: 75px;
+     border: none; 
+     outline: none;
+     background-color: rgb(162, 58, 58);
+     color: black;
+     font-size: 20px;
+     border-radius: 20px;
+     cursor: pointer;
+    transition: 0.3s;
+}
